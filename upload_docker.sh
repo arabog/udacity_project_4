@@ -6,14 +6,10 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath="hugb2022/projectfour:v1.0.0"
 
 # Step 2:  
 # Authenticate & tag
-docker login
-docker tag projectfour ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
 
 # Step 3:
 # Push image to a docker repository
-docker push ${dockerpath}
