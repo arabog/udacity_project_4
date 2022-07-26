@@ -1,6 +1,7 @@
 <paste log output from Kubernetes-mediated prediction, here>
 
 (.devops) aduke@aduke:~/Downloads/udacity_project_4$ ./run_kubernetes.sh 
+pod/image created
 NAME           READY   STATUS    RESTARTS   AGE
 image   1/1     Running   0          7m46s
 Forwarding from 127.0.0.1:8080 -> 80
