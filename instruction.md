@@ -5,8 +5,6 @@ kubectl version -o json
 
 https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-debian-linux/
 
+https://www.virtualbox.org/wiki/Linux_Downloads
 
-python3 -m venv ~/.devops
-source ~/.devops/bin/activate
-
-https://www.rosehosting.com/blog/how-to-install-and-switch-python-versions-on-ubuntu-20-04/
+https://stackoverflow.com/questions/65684245/why-virtualbox-fails-to-install-on-ubuntu20-04

@@ -6,15 +6,14 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=aduke2022/four
+dockerpath=docktor2022/image
 
 # Step 2:  
 # Authenticate & tag
+docker login -u docktor2022
+docker tag image ${dockerpath}
 echo "Docker ID and Image: $dockerpath"
-
-docker login -u aduke2022
-docker tag four $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
-docker push ${dockerpath:latest}
+docker push ${dockerpath}

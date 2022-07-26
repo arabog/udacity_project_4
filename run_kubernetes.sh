@@ -4,12 +4,16 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
-dockerpath=aduke2022/four
+# dockerpath=<>"
+dockerpath="docktor2022/image"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run four --image=$dockerpath
+# kubectl run image\
+#     --image=$dockerpath\
+#     --port=80 --labels app=image
+
+kubectl run image --image=$dockerpath
 
 # Step 3:
 # List kubernetes pods
@@ -17,7 +21,4 @@ kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-kubectl port-forward four 8000:80
-
-# kubectl describe pod projectfour
-# minikube docker-env
+kubectl port-forward image 8000:80
