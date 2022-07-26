@@ -1,4 +1,5 @@
-[![CircleCI](https://circleci.com/gh/arabog/udacity_project_4/tree/main.svg?style=svg)]
+[CircleCI](https://circleci.com/gh/arabog/udacity_project_4/tree/main.svg?style=svg)
+
 (https://circleci.com/gh/arabog/udacity_project_4/tree/main)
 
 
