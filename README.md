@@ -1,3 +1,8 @@
+# Example:
+[![CircleCI](https://circleci.com/gh/arabog/udacity_project_4/tree/main.svg?style=svg)]
+(https://circleci.com/gh/arabog/udacity_project_4/tree/main.svg)
+
+
 <include a CircleCI status badge, here>
 
 ## Project Overview
